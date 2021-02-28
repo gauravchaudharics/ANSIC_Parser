@@ -1,5 +1,12 @@
 # ANSIC_Parser
 This is parser created with ansi c grammar yacc and lex specification file
+ansic yacc specification file
+https://www.lysator.liu.se/c/ANSI-C-grammar-y.html
+
+ansi c lex specification file
+
+https://www.lysator.liu.se/c/ANSI-C-grammar-l.html
+
 
 TO run this program first you need to have installed bison and flex installed
 you can install on ubuntu with following command
@@ -17,8 +24,14 @@ or
 following commands one by one
 
 yacc -d project.y
+
+
 lex project.l
+
+
 gcc -o a.out y.tab.c lex.yy.c -lfl -lm
+
+
 ./a.out < inp
 
 
