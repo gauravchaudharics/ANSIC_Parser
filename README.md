@@ -13,5 +13,14 @@ you can run following command in in linux
 
 bash run_project.sh
 
+or
+following commands one by one
+
+yacc -d project.y
+lex project.l
+gcc -o a.out y.tab.c lex.yy.c -lfl -lm
+./a.out < inp
+
+
 program output syntax error if it finds any otherwise complete program is printed as it is
 
