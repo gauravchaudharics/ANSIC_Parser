@@ -23,10 +23,10 @@ bash run_project.sh
 or
 following commands one by one
 
-yacc -d project.y
+yacc -d ansic.y
 
 
-lex project.l
+lex ansic.l
 
 
 gcc -o a.out y.tab.c lex.yy.c -lfl -lm
