@@ -9,6 +9,8 @@ sudo apt-get install bison flex
 you can write a program you want to parse in inp file
 
 you can run following command in in linux
+
+
 bash run_project.sh
 
 program output syntax error if it finds any otherwise complete program is printed as it is
